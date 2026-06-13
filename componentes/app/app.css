@@ -1,0 +1,460 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-color: #171D25;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 130px;
+    height: auto;
+    padding: 20px 10%;
+}
+
+.div-catalogo {
+    font-weight: 600;
+}
+
+.imagem-jogo {
+    width: 100%;
+    display: block;
+
+}
+
+.link-header {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.logo {
+    width: 60%;
+}
+
+.div-busca-loja {
+    display: flex;
+
+}
+
+.div-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-busca-loja {
+    font-size: 17px;
+    font-weight: 600;
+    width: 30rem;
+    height: 2.5rem;
+    background-color: rgba(144, 133, 133, 0.69);
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 2px;
+}
+
+.div-links-catalogo {
+    background-color: #17232e;
+    height: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.input-icon-search {
+    background-color: #66c0f4;
+    width: 2rem;
+    height: auto;
+    border-radius: 2px;
+}
+
+body {
+    background-color: #1b2835;
+    color: #c7d5e0;
+}
+
+.bbDiv {
+    height: 150px;
+    background-color: #1b2838;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+
+.section-cards {
+    background-color: #1b2835;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div_container_card {
+    display: flex;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #c7d5e0;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #66c0f4;
+}
+
+.btn-nav {
+    background-color: #5c7e10;
+    padding: 8px 15px;
+    border-radius: 4px;
+    color: white;
+}
+
+/* HERO */
+
+#hero {
+    height: 80vh;
+    background: linear-gradient(to right, #1b2838, #0f1c2c);
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.hero-content {
+    max-width: 600px;
+
+}
+
+.hero h1,
+.titulo {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta {
+    background-color: #66c0f4;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    color: #1b2838;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.3s;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.cta:hover {
+    background-color: #417a9b;
+}
+
+/* GAMES */
+
+.games {
+    padding: 60px 10%;
+    text-align: center;
+}
+
+.games h2 {
+    margin-bottom: 40px;
+    font-size: 32px;
+}
+
+h1 {
+    margin-bottom: 2rem;
+    font-size: 32px;
+    margin-top: 2rem;
+}
+
+.jogo-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.div-botao {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.paragrafo-secao-jogo {
+    max-width: 43rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+.div-jogo-texto {
+    margin-top: 20px;
+    background-color: #417a9b;
+}
+
+.game-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.game-card {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    width: 30%;
+    border-radius: 8px;
+    transition: 0.3s;
+    padding: 0px;
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+         flex-shrink: 0;
+}
+.game-card-img {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    width: 40%;
+    border-radius: 8px;
+    transition: 0.3s;
+    padding: 0px;
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+         flex-shrink: 0;
+}
+.div-texto-desconto {
+    background-color: #417a9b;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;   
+}
+
+
+
+.game-card:hover {
+    transform: scale(1.05);
+}
+
+.game-img {
+    display: flex;
+    margin-bottom: 22px;
+}
+
+/* CONTACT */
+.navCard {
+    display: flex;
+    background-color: #171a21;
+
+}
+
+#contact {
+    padding: 60px 10%;
+    background-color: #171a21;
+    text-align: center;
+}
+
+.contact h2 {
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+form input {
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #5c7e10;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #7aa32d;
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0f1c2c;
+    font-size: 14px;
+}
+
+/*Loja-----------------------------------------------------------------------------------------------------------------------------------*/
+
+.video-loja {
+    width: 100vw;
+    height: 60vh;
+}
+
+.titulo-desconto-loja {
+    font-weight: 700;
+    font-size: 20px;
+
+}
+
+.div-desconto-eventos {
+    padding: 10px;
+    background-color: #1B2838;
+    display: flex;
+    flex-direction: column;
+}
+
+.div-game-desconto {
+    background-color: #1B2838;
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 6rem;
+}
+
+.div-jogo-desconto-block::-webkit-scrollbar {
+    display: none;
+}
+
+.container-scroll {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+}
+
+.btn-scroll {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #1B2838;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+.div-jogo-desconto-block {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 50%;
+    padding: 10px;
+    scroll-behavior: smooth;
+}
+
+/* EXPLORAR POR CATEGORIA -------------------------------------------------------*/
+
+.div-pai-categoria{
+    background-color: #182332;
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+    
+}
+.titulo-categoria{
+     font-weight: 700;
+    font-size: 20px;
+}
+
+.div-cards-categoria::-webkit-scrollbar {
+    display: none;
+}
+/* SETAS */
+
+.btn-scroll {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    flex-shrink: 0;
+    transition: 0.3s;
+}
+
+.btn-scroll:hover {
+    transform: scale(1.1);
+}
+
+/* DESCONTOS */
+
+.container-scroll {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 15px;
+}
+
+
+
+/* CATEGORIAS */
+
+.titulo-categoria {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 25px 20px;
+}
+
+.div-pai-categoria {
+    display: flex;
+    align-items: center;
+   
+    padding: 20px;
+}
+
+.div-cards-categoria {
+    display: flex;
+    gap: 15px;
+
+    overflow-x: auto;
+    overflow-y: hidden;
+
+    width: 50%;
+
+    scroll-behavior: smooth;
+}
+
+.div-cards-categoria::-webkit-scrollbar {
+    display: none;
+}
+
+.div-filha-categoria{
+    background-color: #417a9b;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+}
