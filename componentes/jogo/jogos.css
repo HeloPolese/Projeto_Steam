@@ -7,7 +7,10 @@
     justify-content: space-around;
    
 }
-
+.super-categoria{
+    display: flex;
+    flex-direction: column;
+}
 
 .div-secao-jogo{
     display: flex;
@@ -15,9 +18,7 @@
     justify-content: center;
     
 }
-#jogo-info {
-    flex-grow: 2;
-}
+
 
 #jogo-imagem {
     padding: 15px;
