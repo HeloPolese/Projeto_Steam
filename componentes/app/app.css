@@ -827,3 +827,186 @@ footer {
     color: #2187FF;
     margin-left: 15px;
 }
+
+
+@media (max-width: 1024px) {
+
+    .header {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .logo {
+        width: 220px;
+    }
+
+    .input-busca-loja {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .div-links-catalogo {
+        height: auto;
+        padding: 15px;
+        flex-wrap: wrap;
+    }
+
+    .div-secao-comunidade {
+        width: 95%;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .div-secao-comunidade2 {
+        width: 100%;
+    }
+
+    .div-comentarios {
+        width: 90%;
+    }
+
+    .div-jogo-desconto-block,
+    .div-cards-categoria {
+        width: 90%;
+    }
+
+    .video-loja2 {
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+    }
+
+    .sub-div-acesso {
+        width: 90%;
+    }
+
+    .super-div-sobre {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .hero {
+        padding: 20px;
+        text-align: center;
+        height: auto;
+        min-height: 60vh;
+    }
+
+    .hero h1,
+    .titulo {
+        font-size: 32px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .div_container_card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .game-card,
+    .game-card-img,
+    .game-card-img-categoria {
+        width: 90%;
+        max-width: 450px;
+    }
+
+    .div-busca-loja {
+        width: 100%;
+    }
+
+    .input-busca-loja {
+        width: 100%;
+    }
+
+    .div-links-catalogo {
+        flex-wrap: wrap;
+        gap: 1rem;
+        height: auto;
+    }
+
+    .jogo-content,
+    .div-bt-comunidade,
+    .div-onlines,
+    .super-div-sobre {
+        flex-direction: column;
+    }
+
+    .bt-comunidade-1,
+    .bt-instalar-steam-sobre {
+        width: 100%;
+    }
+
+    .card-comentarios {
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+    }
+
+    .img-comentarios {
+        width: 80px;
+    }
+
+    .video-loja {
+        height: 35vh;
+    }
+
+    .img-steam-sobre {
+        width: 100%;
+    }
+
+    .div-jogo-desconto-block,
+    .div-cards-categoria,
+    .div-comentarios,
+    .sub-div-acesso {
+        width: 100%;
+    }
+
+    .secao-jogo {
+        padding: 20px;
+    }
+
+    .titulo-jogo {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .hero h1,
+    .titulo {
+        font-size: 26px;
+    }
+
+    .games h2,
+    h1 {
+        font-size: 24px;
+    }
+
+    .titulo-jogo {
+        font-size: 1.6rem;
+    }
+
+    .cta,
+    .btn-jogo {
+        width: 100%;
+    }
+
+    .categoria-paragrafo-gradient {
+        font-size: 0.9rem;
+    }
+
+    .sub-div-acesso {
+        font-size: 16px;
+    }
+
+    .video-loja2 {
+        width: 100%;
+    }
+}
