@@ -1,0 +1,1005 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#app {
+    flex: 1;
+}
+
+.header {
+    background-color: #171D25;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 130px;
+    height: auto;
+    padding: 20px 10%;
+}
+
+.div-catalogo {
+    font-weight: 600;
+}
+
+.imagem-jogo {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+}
+
+.link-header {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.logo {
+    width: 60%;
+}
+
+.div-busca-loja {
+    display: flex;
+
+}
+
+.div-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-busca-loja {
+    font-size: 17px;
+    font-weight: 600;
+    width: 30rem;
+    height: 2.5rem;
+    background-color: rgba(144, 133, 133, 0.69);
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 2px;
+}
+
+.div-links-catalogo {
+    background-color: #17232e;
+    height: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.input-icon-search {
+    background-color: #66c0f4;
+    width: 2rem;
+    height: auto;
+    border-radius: 2px;
+}
+
+body {
+    background-color: #1b2835;
+    color: #c7d5e0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.bbDiv {
+    height: 150px;
+    background-color: #1b2838;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+.section-cards {
+    background-color: #1b2835;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div_container_card {
+    display: flex;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #c7d5e0;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #66c0f4;
+}
+
+.btn-nav {
+    background-color: #5c7e10;
+    padding: 8px 15px;
+    border-radius: 4px;
+    color: white;
+}
+
+.hero {
+    height: 60vh;
+    background: linear-gradient(to right, #1b2838, #0f1c2c);
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    justify-content: center;
+    background-color: #5c7e10;
+}
+
+.hero-content {
+    max-width: 700px;
+}
+
+.div-bt {
+    background-color: #5c7e10;
+}
+
+.hero h1,
+.titulo {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta {
+    background-color: #66c0f4;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    color: #1b2838;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.3s;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.cta:hover {
+    background-color: #417a9b;
+}
+
+/* GAMES */
+
+.games {
+    padding: 60px 10%;
+    text-align: center;
+}
+
+.games h2 {
+    margin-bottom: 40px;
+    font-size: 32px;
+}
+
+h1 {
+    margin-bottom: 2rem;
+    font-size: 32px;
+    margin-top: 2rem;
+}
+
+.jogo-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-botao {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.paragrafo-secao-jogo {
+    max-width: 43rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+.div-jogo-texto {
+    margin-top: 20px;
+    background-color: #417a9b;
+}
+
+.game-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.game-card {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    width: 30%;
+    border-radius: 8px;
+    transition: 0.3s;
+    padding: 0px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    flex-shrink: 0;
+}
+
+.game-card-img {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    width: 30%;
+    border-radius: 8px;
+    transition: 0.3s;
+    padding: 0px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    flex-shrink: 0;
+}
+
+.div-texto-desconto {
+    background-color: #417a9b;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 0 0 5px 5px;
+}
+
+.game-card:hover,
+.game-card-img-categoria:hover {
+    transform: scale(1.05);
+}
+
+.game-img {
+    display: flex;
+    margin-bottom: 22px;
+}
+
+/* CONTACT */
+.navCard {
+    display: flex;
+    background-color: #171a21;
+}
+
+#contact {
+    padding: 60px 10%;
+    background-color: #171a21;
+    text-align: center;
+}
+
+.contact h2 {
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+form input {
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #5c7e10;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #7aa32d;
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0f1c2c;
+    font-size: 14px;
+}
+
+/*Loja-----------------------------------------------------------------------------------------------------------------------------------*/
+
+.video-loja {
+    width: 100vw;
+    height: 60vh;
+}
+
+.titulo-desconto-loja {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.div-desconto-eventos {
+    padding: 10px;
+    background-color: #1B2838;
+    display: flex;
+    flex-direction: column;
+}
+
+.div-game-desconto {
+    background-color: #1B2838;
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 12rem;
+}
+
+.div-jogo-desconto-block::-webkit-scrollbar {
+    display: none;
+}
+
+.container-scroll {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+}
+
+.btn-scroll {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #1B2838;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.div-jogo-desconto-block {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 50%;
+    padding: 10px;
+    scroll-behavior: smooth;
+}
+
+#app {
+    background-color: #1B2838;
+}
+
+/* EXPLORAR POR CATEGORIA -------------------------------------------------------*/
+
+.div-pai-categoria {
+    background-color: #1B2838;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10rem;
+}
+
+.super-categoria {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 12rem;
+    background-color: #1B2838;
+}
+
+.titulo-categoria {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.div-cards-categoria::-webkit-scrollbar {
+    display: none;
+}
+
+/* SETAS */
+
+.btn-scroll {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    flex-shrink: 0;
+    transition: 0.3s;
+}
+
+.btn-scroll:hover {
+    transform: scale(1.1);
+}
+
+/* DESCONTOS */
+
+.container-scroll {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 15px;
+}
+
+
+.titulo-categoria {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 25px 20px;
+}
+
+.div-pai-categoria {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.div-cards-categoria {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 50%;
+    scroll-behavior: smooth;
+}
+
+.div-cards-categoria::-webkit-scrollbar {
+    display: none;
+}
+
+.div-filha-categoria {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+}
+
+.imagem-jogo-categoria {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+.game-card-img-categoria {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    width: 35%;
+    height: 13rem;
+    border-radius: 8px;
+    transition: 0.3s;
+    padding: 0px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.div-categoria-gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    inset: 0;
+}
+
+.categoria-paragrafo-gradient {
+    color: black;
+    background-color: white;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+/* COMUNIDADE --------------------------------------------------------------------------------------------------------*/
+
+.super-comunidade {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div-texto-comunidade {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 3rem;
+    margin-top: 4rem;
+}
+
+.div-secao-comunidade {
+    padding: 15px;
+    background-color: #152234;
+    display: flex;
+    gap: 4rem;
+    margin-bottom: 3rem;
+    justify-content: center;
+    width: 70%;
+}
+
+.div-secao-comunidade1 {
+    padding: 15px;
+    background-color: #152234;
+    display: flex;
+    flex-direction: column;
+}
+
+.div-secao-comunidade2 {
+    padding: 15px;
+    background-color: #152234;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.texto-secao {
+    margin-top: 2rem;
+}
+
+.div-bt-comunidade {
+    display: flex;
+    gap: 4rem;
+    margin-top: 5rem;
+}
+
+.bt-comunidade-1 {
+    width: 20%;
+    background-color: #7aa32d;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    border-color: #ffffff;
+}
+
+.bt-comunidade-1:hover {
+    cursor: pointer;
+    background-color: #5c7e10;
+}
+
+.titulo-comunidade {
+    margin-top: 3rem;
+}
+
+.super-div-comentarios {
+    background-color: #1B2838;
+    display: flex;
+    display: block;
+    justify-content: center;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.mae-div-comentario {
+    background-color: #1B2838;
+    display: flex;
+    display: block;
+    justify-content: center;
+}
+
+.div-comentarios {
+    background-color: #1B2838;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    display: inline;
+}
+
+.card-comentarios {
+    background-color: #152234;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 10px;
+    height: 9rem;
+}
+
+.img-comentarios {
+    width: 15%;
+    height: auto;
+}
+
+.texto-comentario {
+    margin-top: 10px;
+}
+
+.titulo-comentarios {
+    margin-bottom: 3rem;
+}
+
+.text-centrais {
+    margin-top: 2rem;
+}
+
+.secao-jogo {
+    display: flex;
+    gap: 30px;
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 6rem;
+  
+}
+
+.div-imagem-jogo {
+    flex: 1;
+    min-width: 300px;
+}
+
+.img-jogo {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+.div-info-jogo {
+    flex: 1;
+    min-width: 300px;
+}
+
+.titulo-jogo {
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.descricao-jogo {
+    color: #c7d5e0;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.btn-jogo {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    background-color: #417A9B;
+}
+
+/*sobre------------------------------------------------*/
+.img-steam-sobre {
+    width: 50%;
+}
+
+.div-sobre {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 7rem;
+    height: auto;
+    gap: 15px;
+    margin-bottom: 12rem;
+}
+
+.div-conteiner-sobre {
+    background-color: #5c7e10;
+}
+
+.sub-conteirner-sobre1 {
+    background-color: #1b2838;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.p-desc-steam {
+    margin-top: 2rem;
+}
+
+.div-onlines {
+    display: flex;
+    margin-top: 1rem;
+    gap: 4rem;
+    font-weight: 700;
+    font-size: larger;
+}
+
+.bt-instalar-steam-sobre {
+    background-color: #2187FF;
+    width: 50%;
+    margin-top: 3rem;
+    height: 3rem;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 5px;
+    border-color: #2187FF;
+}
+
+.p-disponibilidade {
+    margin-top: 3rem;
+}
+
+.img-dispo1 {
+    width: 10%;
+}
+
+.video-loja2 {
+    width: 500px;
+    height: 400px;
+    border: none;
+}
+
+.super-div-sobre {
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.div-acesso {
+    display: flex;
+    justify-content: center;
+}
+
+.sub-div-acesso {
+    margin-top: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    width: 44%;
+}
+
+.titulo-acesso-sobre {
+    margin-bottom: 3rem;
+}
+
+.link-loja {
+    margin-top: 40px;
+    color: #2187FF;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.link-loja:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.icon {
+    color: #2187FF;
+    margin-left: 15px;
+}
+
+
+@media (max-width: 1024px) {
+
+    .header {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .logo {
+        width: 220px;
+    }
+
+    .input-busca-loja {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .div-links-catalogo {
+        height: auto;
+        padding: 15px;
+        flex-wrap: wrap;
+    }
+
+    .div-secao-comunidade {
+        width: 95%;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .div-secao-comunidade2 {
+        width: 100%;
+    }
+
+    .div-comentarios {
+        width: 90%;
+    }
+
+    .div-jogo-desconto-block,
+    .div-cards-categoria {
+        width: 90%;
+    }
+
+    .video-loja2 {
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+    }
+
+    .sub-div-acesso {
+        width: 90%;
+    }
+
+    .super-div-sobre {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .hero {
+        padding: 20px;
+        text-align: center;
+        height: auto;
+        min-height: 60vh;
+    }
+
+    .hero h1,
+    .titulo {
+        font-size: 32px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .div_container_card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .game-card,
+    .game-card-img,
+    .game-card-img-categoria {
+        width: 90%;
+        max-width: 450px;
+    }
+
+    .div-busca-loja {
+        width: 100%;
+    }
+
+    .input-busca-loja {
+        width: 100%;
+    }
+
+    .div-links-catalogo {
+        flex-wrap: wrap;
+        gap: 1rem;
+        height: auto;
+    }
+
+    .jogo-content,
+    .div-bt-comunidade,
+    .div-onlines,
+    .super-div-sobre {
+        flex-direction: column;
+    }
+
+    .bt-comunidade-1,
+    .bt-instalar-steam-sobre {
+        width: 100%;
+    }
+
+    .card-comentarios {
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+    }
+
+    .img-comentarios {
+        width: 80px;
+    }
+
+    .video-loja {
+        height: 35vh;
+    }
+
+    .img-steam-sobre {
+        width: 100%;
+    }
+
+    .div-jogo-desconto-block,
+    .div-cards-categoria,
+    .div-comentarios,
+    .sub-div-acesso {
+        width: 100%;
+    }
+
+    .secao-jogo {
+        padding: 20px;
+    }
+
+    .titulo-jogo {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .hero h1,
+    .titulo {
+        font-size: 26px;
+    }
+
+    .games h2,
+    h1 {
+        font-size: 24px;
+    }
+
+    .titulo-jogo {
+        font-size: 1.6rem;
+    }
+
+    .cta,
+    .btn-jogo {
+        width: 100%;
+    }
+
+    .categoria-paragrafo-gradient {
+        font-size: 0.9rem;
+    }
+
+    .sub-div-acesso {
+        font-size: 16px;
+    }
+
+    .video-loja2 {
+        width: 100%;
+    }
+}
