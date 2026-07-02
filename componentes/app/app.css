@@ -6,6 +6,28 @@
 }
 
 
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#app {
+    flex: 1;
+}
+
 .header {
     background-color: #171D25;
     display: flex;
@@ -26,8 +48,6 @@
     object-fit: cover;
     border-radius: 5px 5px 0 0;
 }
-
-
 
 .link-header {
     font-weight: 600;
@@ -78,6 +98,9 @@
 body {
     background-color: #1b2835;
     color: #c7d5e0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .bbDiv {
@@ -86,7 +109,6 @@ body {
     margin-bottom: 15px;
     border-radius: 4px;
 }
-
 
 .section-cards {
     background-color: #1b2835;
@@ -120,8 +142,6 @@ nav a:hover {
     color: white;
 }
 
-/* HERO */
-
 .hero {
     height: 60vh;
     background: linear-gradient(to right, #1b2838, #0f1c2c);
@@ -134,7 +154,6 @@ nav a:hover {
 
 .hero-content {
     max-width: 700px;
-
 }
 
 .div-bt {
@@ -191,9 +210,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
-
 
 .div-botao {
     display: flex;
@@ -234,7 +251,6 @@ p {
     padding: 0px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     flex-shrink: 0;
-
 }
 
 .game-card-img {
@@ -249,7 +265,6 @@ p {
     padding: 0px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     flex-shrink: 0;
-
 }
 
 .div-texto-desconto {
@@ -262,8 +277,6 @@ p {
     gap: 10px;
     border-radius: 0 0 5px 5px;
 }
-
-
 
 .game-card:hover,
 .game-card-img-categoria:hover {
@@ -279,7 +292,6 @@ p {
 .navCard {
     display: flex;
     background-color: #171a21;
-
 }
 
 #contact {
@@ -398,12 +410,10 @@ footer {
 
 .div-pai-categoria {
     background-color: #1B2838;
-
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 10rem;
-
 }
 
 .super-categoria {
@@ -462,7 +472,6 @@ footer {
 .div-pai-categoria {
     display: flex;
     align-items: center;
-
     padding: 20px;
 }
 
@@ -509,7 +518,6 @@ footer {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     flex-shrink: 0;
     position: relative;
-
     overflow: hidden;
 }
 
@@ -523,9 +531,7 @@ footer {
     justify-content: center;
     align-items: center;
     inset: 0;
-
 }
-
 
 .categoria-paragrafo-gradient {
     color: black;
@@ -535,9 +541,7 @@ footer {
     font-size: 1rem;
     font-weight: 600;
     margin: 0;
-
 }
-
 
 /* COMUNIDADE --------------------------------------------------------------------------------------------------------*/
 
@@ -546,7 +550,6 @@ footer {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-
 }
 
 .div-texto-comunidade {
@@ -573,9 +576,6 @@ footer {
     background-color: #152234;
     display: flex;
     flex-direction: column;
-
-
-
 }
 
 .div-secao-comunidade2 {
@@ -584,8 +584,6 @@ footer {
     display: flex;
     flex-direction: column;
     width: 40%;
-
-
 }
 
 .texto-secao {
@@ -617,17 +615,13 @@ footer {
     margin-top: 3rem;
 }
 
-
 .super-div-comentarios {
     background-color: #1B2838;
     display: flex;
     display: block;
     justify-content: center;
-
     margin-top: 10rem;
     margin-bottom: 10rem;
-
-
 }
 
 .mae-div-comentario {
@@ -635,7 +629,6 @@ footer {
     display: flex;
     display: block;
     justify-content: center;
-
 }
 
 .div-comentarios {
@@ -662,7 +655,6 @@ footer {
 
 .texto-comentario {
     margin-top: 10px;
-
 }
 
 .titulo-comentarios {
@@ -681,6 +673,8 @@ footer {
     margin: auto;
     align-items: center;
     flex-wrap: wrap;
+    margin-top: 6rem;
+  
 }
 
 .div-imagem-jogo {
@@ -726,7 +720,6 @@ footer {
 }
 
 .div-sobre {
-
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -738,7 +731,6 @@ footer {
 
 .div-conteiner-sobre {
     background-color: #5c7e10;
-
 }
 
 .sub-conteirner-sobre1 {
@@ -747,10 +739,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-
 }
-
-
 
 .p-desc-steam {
     margin-top: 2rem;
@@ -789,16 +778,19 @@ footer {
     height: 400px;
     border: none;
 }
-.super-div-sobre{
+
+.super-div-sobre {
     gap: 10px;
     display: flex;
     justify-content: center;
 }
-.div-acesso{
+
+.div-acesso {
     display: flex;
     justify-content: center;
 }
-.sub-div-acesso{
+
+.sub-div-acesso {
     margin-top: 12rem;
     display: flex;
     justify-content: center;
@@ -806,24 +798,25 @@ footer {
     flex-direction: column;
     font-size: 20px;
     width: 44%;
-
 }
-.titulo-acesso-sobre{
+
+.titulo-acesso-sobre {
     margin-bottom: 3rem;
 }
-.link-loja{
+
+.link-loja {
     margin-top: 40px;
     color: #2187FF;
     font-weight: 600;
     text-decoration: none;
 }
 
-.link-loja:hover{
+.link-loja:hover {
     cursor: pointer;
     text-decoration: underline;
 }
 
-.icon{
+.icon {
     color: #2187FF;
     margin-left: 15px;
 }

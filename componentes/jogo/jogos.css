@@ -16,9 +16,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
-}
 
+}
 
 #jogo-imagem {
     padding: 15px;
@@ -37,3 +36,4 @@
     font-size: 18px;
     margin-bottom: 30px;
 }
+
